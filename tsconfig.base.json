@@ -21,7 +21,6 @@
       ],
       "@trymodules/adapter-aws-sqs": ["packages/adapter-aws-sqs/src/index.ts"],
       "@trymodules/adapter-redis": ["packages/adapter-redis/src/index.ts"],
-      "@trymodules/common": ["packages/common/src/index.ts"],
       "@trymodules/events": ["packages/events/src/index.ts"]
     }
   },
