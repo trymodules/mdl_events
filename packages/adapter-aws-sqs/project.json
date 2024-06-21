@@ -1,0 +1,20 @@
+{
+  "name": "adapter-aws-sqs",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/adapter-aws-sqs/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/adapter-aws-sqs",
+        "tsConfig": "packages/adapter-aws-sqs/tsconfig.lib.json",
+        "packageJson": "packages/adapter-aws-sqs/package.json",
+        "main": "packages/adapter-aws-sqs/src/index.ts",
+        "assets": ["packages/adapter-aws-sqs/*.md"]
+      }
+    }
+  }
+}

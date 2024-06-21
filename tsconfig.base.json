@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "#shared/*": ["libs/shared/src/*"],
+      "@trymodules/adapter-aws-eventbridge": [
+        "packages/adapter-aws-eventbridge/src/index.ts"
+      ],
+      "@trymodules/adapter-aws-sqs": ["packages/adapter-aws-sqs/src/index.ts"],
+      "@trymodules/adapter-redis": ["packages/adapter-redis/src/index.ts"],
+      "@trymodules/common": ["packages/common/src/index.ts"],
+      "@trymodules/events": ["packages/events/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
