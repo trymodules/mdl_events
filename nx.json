@@ -6,7 +6,7 @@
   },
   "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudAccessToken": "NjhiZDBkNTgtZjliNi00ZmVkLTk2MzMtOGU0NmVhMzliNjRmfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "",
   "plugins": [
     {
       "plugin": "@nx/eslint/plugin",
